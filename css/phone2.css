@@ -1,0 +1,149 @@
+:root {
+  --primary-color: #00e77f;
+  --secondary-color: #4b4b4b;
+  --white: #fff;
+  --light-white: #aaa;
+  --black: #3d3d3d;
+}
+
+/* navbar design */
+#navbar ul {
+  visibility: hidden;
+}
+
+#navbar div {
+  visibility: visible;
+}
+#navbar div i {
+  color: var(--white);
+}
+
+#navbar h1 {
+  left: 2.5rem;
+}
+
+/* section design */
+
+#section {
+  flex-direction: column-reverse;
+}
+#section .child {
+  width: 22rem;
+}
+#section .child img {
+  height: 20rem;
+  width: 20rem;
+}
+
+.child h1 {
+  font-size: 4rem;
+}
+
+/* section2 design */
+#section2 {
+  flex-direction: column;
+}
+#section2 .box {
+  width: 290px;
+  height: 89px;
+  margin: 10px 0;
+}
+
+#section2 .box i {
+  font-size: 3rem;
+  margin: 0 15px;
+}
+
+#section2 .box h1 {
+  margin-left: 76px;
+  font-size: 28px;
+}
+#section2 .box p {
+  font-size: 19px;
+  margin-left: 78px;
+}
+
+/* section3 design */
+
+#section3 {
+  flex-direction: column;
+  align-items: center;
+}
+#section3 .container {
+  height: 22rem;
+  width: 22rem;
+}
+
+/* section4 design */
+#section4 .container {
+  width: 17rem;
+  height: auto;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+}
+
+#section4 .container .sub-box p {
+  margin-bottom: 14px;
+}
+
+/* section5 design */
+#section5 .container {
+  width: 15rem;
+  height: auto;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+}
+#section5 .container .sub-box img {
+  height: 22rem;
+}
+
+/* section6 design */
+#section6 .container {
+  width: 15rem;
+  height: auto;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+}
+
+#section6 h1 {
+  text-align: center;
+}
+
+/* section7 design */
+
+#section7 .container {
+  flex-direction: column;
+  height: 54rem;
+  width: 22rem;
+}
+#section7 .container .sub-container1 {
+  width: 21.5rem;
+}
+#section7 .container .sub-container2 {
+  width: 21.5rem;
+}
+
+#section7 .container .sub-container2 form .input {
+  width: 18.5rem;
+}
+
+#section7 .container .sub-container2 form select {
+  width: 18.5rem;
+}
+
+/* section8 design */
+#section8 .social a {
+  padding: 19px;
+}
+
+#section8 p {
+  font-size: 10px;
+}
+
+#section8 .social a i {
+  font-size: 12px;
+}
+
+#section8 hr {
+  width: 30%;
+}

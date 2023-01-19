@@ -1,0 +1,111 @@
+/* navbar design */
+#navbar h1 {
+  left: 4rem;
+}
+
+#navbar ul {
+  right: 1rem;
+}
+
+/* child section design */
+.child {
+  width: 30rem;
+  height: 30rem;
+}
+
+/* section2 design */
+#section2 .box {
+  width: 200px;
+  height: 73px;
+}
+
+/* section3 design */
+#section3 .container {
+  height: 30rem;
+  width: 30rem;
+}
+
+/* section4 design */
+#section4 .container {
+  width: 43rem;
+  height: 22rem;
+  grid-gap: 1rem;
+}
+
+#section4 .container .sub-box .img1 {
+  margin-top: 2rem;
+  width: 100%;
+  height: 200px;
+}
+#section4 .container .sub-box .img2 {
+  margin-top: 2rem;
+  width: 100%;
+  height: 200px;
+}
+#section4 .container .sub-box .img3 {
+  margin-top: 2rem;
+  width: 100%;
+  height: 200px;
+}
+
+/* section6  design */
+#section6 .container {
+  width: 43rem;
+  height: 17rem;
+}
+
+#section6 .container .box .paragraph {
+  font-size: 13px;
+  margin-bottom: 1rem;
+}
+
+#section6 .container .box .a img {
+  width: 3rem;
+  height: 3rem;
+}
+
+#section6 .container .box .a h4 {
+  font-size: 15px;
+}
+
+#section6 .container .box .a i {
+  font-size: 13px;
+}
+
+/* section5 design */
+#section5 .container {
+  width: 43rem;
+  height: 23rem;
+}
+#section5 .container .sub-box img {
+  width: 100%;
+  height: 19rem;
+}
+
+/* section7 design */
+#section7 {
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+}
+
+#section7 .container {
+  height: 33.5rem;
+  width: 46rem;
+}
+
+#section7 .container .sub-container1 {
+  width: 22.5rem;
+  height: 33.5rem;
+}
+#section7 .container .sub-container2 {
+  width: 22.5rem;
+  height: 33.5rem;
+}
+
+#section7 .container .sub-container2 form .input {
+  width: 20.5rem;
+}
+
+#section7 .container .sub-container2 form select {
+  width: 20.5rem;
+}
